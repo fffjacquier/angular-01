@@ -11,4 +11,6 @@ import { DUMMY_USERS } from '../data/users';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
-export class AppComponent {}
+export class AppComponent {
+  users = DUMMY_USERS;
+}
